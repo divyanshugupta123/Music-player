@@ -1,0 +1,49 @@
+
+button{
+    border: none;
+    background-color: none;
+}
+
+
+#seek{
+    cursor: pointer;
+}
+
+i{
+    font-size: 300%;
+}
+
+#list{
+    padding: 0%;
+    list-style: none;
+}
+li{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 10px auto;
+    cursor: pointer;
+    width: 60%;
+
+}
+
+li:hover{
+    background-color: rgb(195, 143, 21);
+}
+#container{
+    position: relative;
+    width: 360px;
+    border: 2px solid black;
+    height: 600px;
+    margin: 30px auto;
+    text-align: center;
+    background-color: rgb(202, 128, 106);
+}
+#playsection{
+
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+}
+
